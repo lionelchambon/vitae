@@ -1,9 +1,12 @@
 %-------------------------
+% TEMPLATE INFO
 % CV for Northeastern University Faculty in Latex
 % Author : Zoe Kearney
 % Based off of: https://www.overleaf.com/latex/templates/coles-resume-template/qhpynjcvjpcj
 % Follows: https://theprofessorisin.com/2016/08/19/dr-karens-rules-of-the-academic-cv/
 % License : MIT
+
+% Used and modified by: Lionel Chambon
 %------------------------
 
 % Document class and font size
@@ -18,6 +21,7 @@
 \usepackage{hyperref} % For hyperlinks
 \usepackage{tabularx} % For header
 \usepackage{fontawesome}
+\usepackage{enumitem} % For bullet points
 
 % Formatting
 \setlist{noitemsep} % Removes item separation
@@ -53,34 +57,48 @@ Paris, France \ $|$ \  +33 624 894 241  \ $|$ \  Citizenship: French, German % C
 
 \noindent
 \newline
-\textbf{Degree Name} \\
-Year of completion: XXXX \\ 
-Institution \\ 
-Department \\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. \\
+\begin{minipage}[t]{0.7\textwidth}
+  \textbf{M.Res. in Economics}
+\end{minipage}%
+\begin{minipage}[t]{0.3\textwidth}
+  \raggedleft \textbf{2023 -- 2025}
+\end{minipage}
+\\
+\textit{Sciences Po School of Research (PhD-Track)} \\
+Current grade average as of January 2024: 14,98/20. 
+\begin{itemize}[noitemsep, topsep=0pt, left=0pt]
+    \item Graduate courses in econometrics, micro- and macroeconomics. Instruction in Stata, R, Julia. 
+    \item Sample coursework is available \href{https://lionelchambon.github.io/coursework/}{here.} \\
+\end{itemize} 
 
 \noindent
-\textbf{Degree Name} \\
-Year of completion: XXXX \\ 
-Institution \\ 
-Department \\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. \\
-
-\noindent
-\textbf{Degree Name} \\
-Year of completion: XXXX \\ 
-Institution \\ 
-Department  \\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. 
+\begin{minipage}[t]{0.7\textwidth}
+  \textbf{B.A. in Political Science and Economics}
+\end{minipage}%
+\begin{minipage}[t]{0.3\textwidth}
+  \raggedleft \textbf{2020 -- 2023}
+\end{minipage}
+\\
+\textit{Sciences Po Undergraduate College} \\
+{Cum laude} distinction (Average grade: 16,45/20).
+\begin{itemize}[noitemsep, topsep=0pt, left=0pt]
+    \item Minor in Middle Eastern studies included courses in Arabic and politics focused on the MENA region. 
+    \item Academic exchange year at the University of St. Andrews, Scotland (2022-2023). \\
+\end{itemize} 
 
 %------------------------
 
 % Employment Section
-\section*{EMPLOYMENT}
+\section*{PROFESSIONAL EXPERIENCE}
 \noindent
 \newline
-\textbf{Position Title} \\
-Year-Year: XXXX-XXXX \\
+\begin{minipage}[t]{0.7\textwidth}
+  \textbf{Position Title}
+\end{minipage}%
+\begin{minipage}[t]{0.3\textwidth}
+  \raggedleft \textbf{2023 -- 2025}
+\end{minipage}
+\\
 Institution \\ 
 Department \\
 Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. Maecenas maximus lorem orci, ac semper sapien maximus et. \\ 
@@ -92,50 +110,10 @@ Institution \\
 Department \\
 Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. Maecenas maximus lorem orci, ac semper sapien maximus et. \\
 
-\noindent
-\textbf{Position Title} \\
-Year-Year: XXXX-XXXX \\
-Institution \\ 
-Department \\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. Maecenas maximus lorem orci, ac semper sapien maximus et. 
-
 %------------------------
 
-% Publications Section
-\section*{PUBLICATIONS}
- 
-\subsection*{Books}
-\textbf{Publication} \\ 
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. 
-
-\subsection*{Refereed Journal Article}
-\textbf{Publication} \\ 
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. 
-
-\subsection*{Book Chapters}
-\textbf{Publication} \\ 
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. 
-
-\subsection*{Conference Proceedings}
-\textbf{Publication} \\ 
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. 
-
-\subsection*{Book Reviews}
-\textbf{Publication} \\ 
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. 
-
-\subsection*{Manuscripts in Submission}
-\textbf{Publication} \\ 
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. 
-
-\subsection*{Manuscripts in Review}
-\textbf{Publication} \\ 
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. 
-
-%------------------------
-
-% Awards and Honors Section
-\section*{AWARDS AND HONORS}
+% Fellowships and Honors Section
+\section*{FELLOWSHIPS AND HONORS}
 
 \noindent
 \newline
@@ -144,192 +122,15 @@ Year: XXXX \\
 Institutional Location \\
 Dollar Amount [Optional]  \\
 
-\noindent
-\textbf{Name of Award} \\
-Year: XXXX \\
-Institutional Location \\
-Dollar Amount [Optional]  \\
-
-\noindent
-\textbf{Name of Award} \\
-Year: XXXX \\
-Institutional Location \\
-Dollar Amount [Optional]  
-
 %------------------------
 
-% Grants and Fellowships Section
-\section*{GRANTS AND FELLOWSHIPS}
-
-\noindent
-\newline 
-\textbf{Name of Grant} \\
-Year-Year: XXXX - XXXX\\
-Funder \\
-Institutional Location \\
-Dollar Amount [Optional]  \\
-
-\noindent
-\textbf{Name of Grant} \\ 
-Year-Year: XXXX - XXXX\\
-Funder \\
-Institutional Location \\
-Dollar Amount [Optional]  \\
-
-\noindent
-\textbf{Name of Grant} \\ 
-Year-Year: XXXX - XXXX\\
-Funder \\
-Institutional Location \\
-Dollar Amount [Optional]  
-
-%------------------------
-
-% Invited Talks Section 
-\section*{INVITED TALKS}
-
-\noindent
-\newline 
-\textbf{Talk Title} \\ 
-Date: XXXX \\
-Institutional Location \\
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. \\
-
-\noindent
-\textbf{Talk Title} \\ 
-Date: XXXX \\
-Institutional Location \\
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. \\
-
-\noindent
-\textbf{Talk Title} \\ 
-Date: XXXX \\
-Institutional Location 
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. 
-
-%------------------------
-
-% Conference Activity Section 
-\section*{CONFERENCE ACTIVITY}
-\subsection*{Panels Organized}
+% Workshops and Seminars 
+\section*{WORKSHOPS AND SEMINARS}
+\subsection*{Attended}
 \textbf{Title} \\
 Date: XXXX \\
 Name of Conference \\
 Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. 
-
-\subsection*{Papers Presented}
-\textbf{Paper Title} \\
-Date: XXXX \\
-Name of Conference \\
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra.
-
-\subsection*{Discussant}
-\textbf{Title} \\
-Date: XXXX \\
-Name of Conference \\
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. 
-
-%------------------------
-
-% Campus or Departmental Talks Section 
-\section*{CAMPUS TALKS}
-
-\noindent
-\newline
-\textbf{Title} \\
-Date: XXXX \\
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. \\
-
-\noindent
-\textbf{Title} \\
-Date: XXXX \\
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. \\
-
-\noindent
-\textbf{Title} \\
-Date: XXXX \\
-Nam suscipit et nisi a aliquet. Fusce metus lacus, porta a viverra et, tristique pharetra magna. Cras in leo sem. Etiam ut vehicula massa, eu semper est. Integer quis eros sapien. Quisque sed pellentesque metus. Sed a augue quis mi dictum pharetra. 
-
-%------------------------
-
-% Teaching Experience Section
-\section*{TEACHING EXPERIENCE}
-
-\noindent
-\newline
-\textbf{Course Title} \hfill Terms and years taught: (sollicitudin bibendum, XXXX)\\
-Institution\\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. Maecenas maximus lorem orci, ac semper sapien maximus et. \\ 
-
-\noindent
-\textbf{Course Title} \hfill Terms and years taught: (sollicitudin bibendum, XXXX)\\
-Institution\\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. Maecenas maximus lorem orci, ac semper sapien maximus et. \\
-
-\noindent
-\textbf{Course Title} \hfill Terms and years taught: (sollicitudin bibendum, XXXX)\\
-Institution\\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. Maecenas maximus lorem orci, ac semper sapien maximus et. 
-
-%------------------------
-
-% Research Experience Section 
-\section*{RESEARCH EXPERIENCE}
-
-\noindent
-\newline
-\textbf{Experience} \\
-Year - Year: XXXX - XXXX \\
-Institution\\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. \\
-
-\noindent
-\textbf{Experience} \\
-Year - Year: XXXX - XXXX \\
-Institution\\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. \\
-
-\noindent
-\textbf{Experience} \\
-Year - Year: XXXX - XXXX \\
-Institution\\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est.
-
-%------------------------
-
-% Service to Profession Section 
-\section*{SERVICE TO PROFESSION}
-
-\noindent
-\newline
-\textbf{Journal Manuscript Review} \\
-Year: XXXX \\
-Journal Title \\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. Maecenas maximus lorem orci, ac semper sapien maximus et. \\
-
-\noindent
-\textbf{Leadership Position} \\
-Year: XXXX \\
-Professional Organization \\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. Maecenas maximus lorem orci, ac semper sapien maximus et. 
-
-%------------------------
-
-% Service to Institution/ Department Section 
-\section*{SERVICE TO NEU/DEPARTMENT}
-
-\noindent
-\newline
-\textbf{Service Role} \\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. Maecenas maximus lorem orci, ac semper sapien maximus et. \\
-
-\noindent
-\textbf{Service Role} \\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. Maecenas maximus lorem orci, ac semper sapien maximus et. \\
-
-\noindent
-\textbf{Service Role} \\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum. Pellentesque vel posuere ante, vitae dignissim ligula. Maecenas maximus lorem orci, ac semper sapien maximus et. 
 
 %------------------------
 
@@ -349,38 +150,11 @@ Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus 
 \textbf{Skill} \\
 Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.  
 
-%------------------------
-
-% Professional Memberships Section 
-\section*{PROFESSIONAL MEMBERSHIPS}
-
-\noindent
-\newline
-\textbf{Professional Organization} \\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.  \\
-
-\noindent
-\textbf{Professional Organization} \\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.  \\
-
-\noindent
-\textbf{Professional Organization} \\
-Maecenas ultricies augue a turpis viverra iaculis. Fusce a lorem est. Phasellus a metus dignissim, commodo eros eget, tempor ipsum.  
-
-%------------------------
-
 % References Section 
 \section*{REFERENCES}
 
 \noindent
 \newline
-\textbf{Reference Name} \\
-Full Title \\
-Address\\
-Email \\
-Telephone \\
-
-\noindent
 \textbf{Reference Name} \\
 Full Title \\
 Address\\
