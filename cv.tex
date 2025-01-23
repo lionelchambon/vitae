@@ -18,11 +18,20 @@
 \geometry{a4paper, margin=1in} % Set paper size and margins
 \usepackage{titlesec} % For section title formatting
 \usepackage{enumitem} % For itemized list formatting
-\usepackage{hyperref} % For hyperlinks
 \usepackage{tabularx} % For header
 \usepackage{fontawesome}
 \usepackage{enumitem} % For bullet points
 \usepackage{ragged2e}
+
+\usepackage[
+    pdftex,            % Enable PDF features
+    colorlinks=true,    % Use colored text instead of boxes
+    linkcolor=blue,     % Color for internal links
+    urlcolor=blue,      % Color for email and external links
+    citecolor = deepblue,
+    pdfborder={0 0 0},  % No border around links
+    plainpages=false
+]{hyperref} % For hyperlinks
 
 % Formatting
 \setlist{noitemsep} % Removes item separation
@@ -39,7 +48,7 @@
 \begin{center}
 \textbf{\Large LIONEL CHAMBON}\\[3pt] % Name
 \textbf{Graduate Student in Economics}\\[1pt] % One-liner
-Paris, France \ $|$ \  +33 624 894 241  \ $|$ \  Citizenship: French, German % Contact info
+Paris, France \ $|$ \  +33 624 894 241   % Contact info
 
 \begin{tabularx}{\linewidth}{X}
 \centering
@@ -66,7 +75,7 @@ Paris, France \ $|$ \  +33 624 894 241  \ $|$ \  Citizenship: French, German % C
 \end{minipage}
 \\
 \textit{Sciences Po School of Research (PhD-Track)} \\
-Grade average after first year of courses: 15/20 
+GPA after first year of courses: 3.8
 \begin{itemize}[noitemsep, topsep=0pt, left=0.65cm]
     \item Graduate courses in econometrics, micro- and macroeconomics. Instruction in Stata, R, Julia. 
     \item Sample \href{https://lionelchambon.github.io/coursework/}{coursework} and \href{https://github.com/lionelchambon}{coding samples} are available on my website. \\
@@ -81,10 +90,10 @@ Grade average after first year of courses: 15/20
 \end{minipage}
 \\
 \textit{Sciences Po Undergraduate College} \\
-\textit{Cum laude} distinction. Average grade: 16,45/20
+\textit{Cum laude} distinction. GPA: 4.0
 \begin{itemize}[noitemsep, topsep=0pt, left=0.65cm]
     \item Major in Economics. Minor in Middle Eastern studies included courses in Arabic and politics focused on the MENA region. 
-    \item Academic exchange year at the University of St. Andrews, Scotland (2022-2023), placed on Dean's List. \\
+    \item Academic exchange year at the University of St. Andrews, Scotland (2022-2023), placed on Dean's List. 
 \end{itemize} 
 
 %------------------------
@@ -125,33 +134,25 @@ Summer intern, DEinternational services department
 
 %------------------------
 
-% Research Interests Section 
-\section*{RESEARCH INTERESTS}
-
-Macroeconomics \ $|$ \ Monetary Policy \ $|$ \ International Capital Flows \ $|$ \ Economic History 
-
-%------------------------
-
 % Quantitative Skills Section 
 \section*{QUANTITATIVE SKILLS}
 
 \noindent
 \textbf{Programming:} R, Julia, EViews, Stata \\
 \textbf{Data experience:} Macroeconomic time-series from Eurostat and European Commission \\
-\textbf{Time-series econometrics:} Error-correction models, factor models, principal component analysis \\
+\textbf{Time-series econometrics:} Error-correction models, factor models, local projections \\
 \textbf{Mico-econometrics}: Linear regression, instrumental variables, Monte-Carlo simulations
 
 %------------------------
 
 % Other Skills Section 
-\section*{OTHER SKILLS \& INTERESTS}
+\section*{OTHER SKILLS \& PERSONAL INTERESTS}
 
 \noindent
 \textbf{Languages}: German, French (native), English (C2), Arabic (B2), Tunisian Arabic dialect (A2) \\
 \noindent
 \textbf{Software:}  Microsoft Office, \LaTeX \\
-\noindent
-\textbf{Personal Interests:} Historical and police novels, running, literature, travelling  
+\textbf{Personal Interests:} Historical and crime novels, running, German literature
 
 %------------------------
 
@@ -160,15 +161,20 @@ Macroeconomics \ $|$ \ Monetary Policy \ $|$ \ International Capital Flows \ $|$
 \section*{REFERENCES}
 
 \noindent
-\textbf{Dr. Johannes Hoffmann} \\
-\textit{Department Director} \\
-International and Euro Area Economy Division \\
-Deutsche Bundesbank \\
-\href{mailto:johannes.hoffmann@bundesbank.de}{johannes.hoffmann@bundesbank.de} 
+\begin{minipage}[t]{0.32\textwidth} 
+    \textbf{Dr. Johannes Hoffmann} \\
+    \textit{Department Chair} \\
+    International and Euro Area Economy Division \\
+    Deutsche Bundesbank \\
+    \href{mailto:johannes.hoffmann@bundesbank.de}{johannes.hoffmann@bundesbank.de} 
+\end{minipage}
 
+\vspace{1cm}
 \begin{FlushRight}
-        \textit{Last updated: October 2024}
+        \textit{Last updated: January 2025}
 \end{FlushRight}
+
+
 
 % End document
 \end{document}
